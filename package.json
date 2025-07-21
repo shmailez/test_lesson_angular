@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /test_lesson_angular/",
+    "build": "ng build --base-href /test_lesson_angular/blob/gh-pages/browser/index.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng deploy"

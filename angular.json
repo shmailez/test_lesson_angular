@@ -96,12 +96,12 @@
   "cli": {
     "analytics": false
   },
-    "deploy": {
-      "builder": "angular-cli-ghpages:deploy",
-      "options": {
-        "repo": "https://github.com/shmailez/test_lesson_angular.git",
-        "branch": "gh-pages",
-        "dir": "dist/test_lesson_angular/browser"
-      }
+  "deploy": {
+    "builder": "angular-cli-ghpages:deploy",
+    "options": {
+      "repo": "https://github.com/shmailez/test_lesson_angular.git",
+      "branch": "gh-pages",
+      "dir": "dist/test_lesson_angular/browser"
     }
+  }
 }
