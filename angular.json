@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pizza-cheff": {
+    "test_lesson_angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pizza-cheff:build:production"
+              "buildTarget": "test_lesson_angular:build:production"
             },
             "development": {
-              "buildTarget": "pizza-cheff:build:development"
+              "buildTarget": "test_lesson_angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -89,6 +89,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
